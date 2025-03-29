@@ -2,7 +2,7 @@
 ´´´CREATE DATABASE retail_sales_project_2;´´´
 **-- Table creating / vytvoření tabulky**
 CREATE TABLE retail_sales
-´´´sQl(
+´´´sql(
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
     sale_time TIME,
