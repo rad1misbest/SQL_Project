@@ -1,8 +1,8 @@
--- Database creating / vytvoření databáze
+**-- Database creating / vytvoření databáze**
 ´´´CREATE DATABASE retail_sales_project_2;´´´
--- Table creating / vytvoření tabulky
+**-- Table creating / vytvoření tabulky**
 CREATE TABLE retail_sales
-´´´(
+´´´sQl(
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
     sale_time TIME,
@@ -14,8 +14,9 @@ CREATE TABLE retail_sales
     price_per_unit FLOAT,	
     cogs FLOAT,
     total_sale FLOAT
-);´´´
--- Data cleaning /  čištění dat
+);
+´´´
+**-- Data cleaning /  čištění dat**
 SELECT COUNT(*) FROM retail_sales;
 
 SELECT * FROM retail_sales
@@ -75,7 +76,7 @@ WHERE
 		total_sale IS NULL
 		OR
 		AGE IS NULL;
---DATA exploration / zkoumání dat
+**--DATA exploration / zkoumání dat**
 **-- How many sales we have ? / Kolik prodejů máme? **
 SELECT COUNT(total_sale) FROM retail_sales;
 
