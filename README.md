@@ -1,8 +1,8 @@
 -- Database creating / vytvoření databáze
-CREATE DATABASE retail_sales_project_2;
+´´´CREATE DATABASE retail_sales_project_2;´´´
 -- Table creating / vytvoření tabulky
 CREATE TABLE retail_sales
-(
+´´´(
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
     sale_time TIME,
@@ -14,7 +14,7 @@ CREATE TABLE retail_sales
     price_per_unit FLOAT,	
     cogs FLOAT,
     total_sale FLOAT
-);
+);´´´
 -- Data cleaning /  čištění dat
 SELECT COUNT(*) FROM retail_sales;
 
