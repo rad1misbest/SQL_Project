@@ -1,4 +1,4 @@
-# Retail Sales Analysis SQL Project
+# Retail Sales Analysis SQL Project and visualization in Power BI
 
 ## Project Overview
 
